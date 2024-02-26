@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "prompt-tuning-moliere"
+version = "0.1.0"
+description = ""
+authors = ["François Weber <francois.weber.commeercial@gmx.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.1"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
